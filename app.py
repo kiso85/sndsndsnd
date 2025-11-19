@@ -167,7 +167,6 @@ def main():
             st.markdown("### Power Input")
             render_machine("Trafo 1", latest['Trafo 1'], avg_vals['Trafo 1'])
             render_machine("Trafo 2", latest['Trafo 2'], avg_vals['Trafo 2'])
-            st.markdown("⬇️")
             render_machine("Main Bus", latest['L1 Site'], avg_vals['L1 Site'])
             
         with c2:
